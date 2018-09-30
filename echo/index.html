@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ECHO.js 纯javascript轻量级延迟加载</title>
+</head>
+<body>
+    <h1 style="margin: 40px;font:32px Microsoft Yahei;text-align: center;">sfddsafsdafsafsadf测试是测测测试1111222</h1>
+    
+    <div class="demo" style="width:730x;margin:0 auto">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/1.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/2.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/3.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/4.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/5.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/6.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/7.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/8.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/9.jpg">
+        <img src="images/blank.gif" alt="" class="lazy" data-echo="images/10.jpg">
+    </div>
+
+    <script src="https://cdn.bootcss.com/echo.js/1.7.3/echo.js"></script>
+    <script>
+        echo.init({
+            offset:0,
+            throttle:0
+        });
+    </script>
+</body>
+</html>
